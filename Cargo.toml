@@ -1,0 +1,16 @@
+[package]
+name = "pyhibitset"
+version = "0.1.0"
+authors = ["Erigara <shanin1000@yandex.ru>"]
+edition = "2018"
+
+[lib]
+name = "pyhibitset"
+crate-type = ["cdylib"]
+
+[dependencies]
+hibitset = "0.6.3"
+
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
