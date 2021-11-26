@@ -10,3 +10,6 @@
 
 # Python bytecode files:
 *.pyc
+
+# Ignore hypothesis files:
+/.hypothesis/
